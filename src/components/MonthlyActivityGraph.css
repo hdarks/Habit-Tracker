@@ -1,0 +1,30 @@
+/* Shared chart container styling */
+.chart-container {
+    width: 100%;
+    min-height: 350px;
+    /* ensures ResponsiveContainer has height */
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    animation: fadeIn 0.4s ease;
+}
+
+.chart-container h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2e7d32;
+    /* green accent */
+}
+
+/* Empty state message */
+.empty-state {
+    font-size: 15px;
+    color: #777;
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+}

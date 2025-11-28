@@ -1,0 +1,38 @@
+.habit-logging {
+    width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.habit-logging h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #2e7d32;
+    /* green accent */
+}
+
+.habit-log-item {
+    display: block;
+    margin: 10px 0;
+    font-size: 15px;
+    color: #444;
+    cursor: pointer;
+}
+
+.habit-log-item input {
+    margin-right: 8px;
+    accent-color: #4caf50;
+    /* green checkbox */
+}
+
+.habit-logging .error {
+    margin-top: 10px;
+    color: #d32f2f;
+    font-size: 14px;
+    font-weight: 500;
+}

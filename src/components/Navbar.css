@@ -1,0 +1,28 @@
+/* styles.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4a90e2;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.nav-left h2 {
+    margin: 0;
+}
+
+.nav-right a {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-right button {
+    background: white;
+    color: #4a90e2;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}

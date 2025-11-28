@@ -1,0 +1,98 @@
+/* auth.css */
+.auth-form {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(0);
+    }
+}
+
+.auth-form h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: all 0.2 ease;
+}
+
+.auth-form input:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.4);
+    outline: none;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.auth-form button:hover {
+    background: #43a047;
+}
+
+.auth-form .error {
+    margin-top: 10px;
+    color: #d32f2f;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Button Styles */
+button {
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #357ab8;
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

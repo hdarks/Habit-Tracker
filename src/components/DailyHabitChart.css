@@ -1,0 +1,25 @@
+.chart-container {
+    width: 100%;
+    min-height: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    animation: fadeIn 0.4 ease;
+}
+
+.chart-container h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+.empty-state {
+    font-size: 15px;
+    color: #777;
+    margin-top: 20px;
+    font-style: italic;
+}

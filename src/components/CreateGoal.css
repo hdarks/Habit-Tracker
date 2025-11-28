@@ -1,0 +1,90 @@
+.goal-form {
+    width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    animation: fadeIn 0.4s ease;
+}
+
+.goal-form h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2e7d32;
+    /* green accent */
+}
+
+/* Input fields */
+.goal-form input[type="text"],
+.goal-form input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+.goal-form input:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.4);
+    outline: none;
+}
+
+/* Habits section */
+.goal-form h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.habit-list {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.habit-checkbox {
+    display: block;
+    margin: 8px 0;
+    font-size: 15px;
+    color: #444;
+    cursor: pointer;
+}
+
+.habit-checkbox input {
+    margin-right: 8px;
+    accent-color: #4caf50;
+    /* green checkbox */
+}
+
+/* Button */
+.goal-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.goal-form button:hover {
+    background: #43a047;
+}
+
+/* Error message */
+.goal-form .error {
+    margin-top: 10px;
+    color: #d32f2f;
+    font-size: 14px;
+    font-weight: 500;
+}

@@ -1,0 +1,61 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* two columns */
+    grid-template-rows: auto auto auto auto;
+    /* add a row for heading */
+    grid-template-areas:
+        "heading heading"
+        "habit goal"
+        "goals chart"
+        "monthly monthly";
+    gap: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading explicitly placed */
+.dashboard h2 {
+    grid-area: heading;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+/* Assign components to grid areas */
+.habit-section {
+    grid-area: habit;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.goal-section {
+    grid-area: goal;
+}
+
+.goals-list {
+    grid-area: goals;
+}
+
+.daily-chart {
+    grid-area: chart;
+}
+
+.monthly-chart {
+    grid-area: monthly;
+}
+
+/* Card styling */
+.dashboard>*:not(h2) {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}

@@ -1,0 +1,78 @@
+.goal-list {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.goal-list h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Each goal card */
+.goal-item {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.goal-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.goal-item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #2e7d32;
+    /* green accent */
+}
+
+.goal-item p {
+    margin: 6px 0;
+    font-size: 15px;
+    color: #555;
+}
+
+/* Habits list inside each goal */
+.goal-item ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0;
+}
+
+.goal-item ul li {
+    background: #f5f5f5;
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Status styling */
+.goal-item p:last-child {
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.goal-item p:last-child span {
+    font-size: 16px;
+}
+
+.goal-item p:last-child {
+    color: #1976d2;
+    /* blue for in progress */
+}
+
+.goal-item p:last-child:has(span:contains("✅")) {
+    color: #2e7d32;
+    /* green for achieved */
+}
